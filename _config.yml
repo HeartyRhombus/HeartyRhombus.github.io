@@ -1,11 +1,11 @@
 # Site settings
 author: Kayla Budzeak
-title: 
+title: Doing My Next Right Thing
 header-img: img/home-bg.png
 email: kaylahmg@gmail.com
 copyright_name: Kayla Budzeak
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Software Engineering with Flatiron School
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  HeartyRhombus
