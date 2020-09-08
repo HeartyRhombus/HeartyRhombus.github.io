@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "Why I Chose to Become a Software Engineer"
-date:       2020-09-08 19:31:32 +0000
+date:       2020-09-08 15:31:33 -0400
 permalink:  why_i_chose_to_become_a_software_engineer
 ---
 
-# 
+
 Well, the day has come and I have begun my road to becoming a Software Engineer with Flatiron School.
 
 After I losing my previous job in the travel industry due to COVID-19, I remember thinking to myself what do I do now?? I thought of all kinds of different avenues from going back to school for Archaeology, to going back to a position within the retail industry, and while Archaeology I think will always be a dream of mine, it is not fiscally responsible of me at this time to try and pursue a doctorate degree in a field that I may never even get a chance to "dig" in to; also going back to retail brought up a myriad of memories from a time in my life where I felt like I was always struggling to get ahead.
