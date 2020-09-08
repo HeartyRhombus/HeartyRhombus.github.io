@@ -12,11 +12,18 @@ After I losing my previous job in the travel industry due to COVID-19, I remembe
 
 So then how and why did I come up with software engineering of all things for my next path?! I took a good hard look at what I wanted to do, what I was good at and what I enjoyed, and made a "virtual" venn diagram in my head.
 
-| Want to Do | Good At | Enjoy |
-|-----------------|------------|----------|
-|Archaeology | Problem Solving | History |
-|  | Working with My Hands | Building Things |
-|  |   | Video Games |
+Things I Want to Do:
+Archaeology
+
+Things I'm Good At:
+Problem Solving,
+Working with My Hands
+
+Things I Enjoy:
+History,
+Building Things,
+Video Games
+
 *I'm sure this virtual venn diagram of mine included a great many more things, although I am unable to recall them at this point.*
 
 I took a handful of "What Job Should You Have?" quizzes, despite knowing that they are really more of something to be looked at for entertainment rather than actual job advice, but one career always kept showing up in my results: Software Engineer.
