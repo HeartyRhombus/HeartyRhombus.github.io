@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Ready Player One - Level Two"
-date:       2020-10-27 15:53:22 +0000
+title:      "Ready Player One: Level Two"
+date:       2020-10-27 11:53:23 -0400
 permalink:  ready_player_one_-_level_two
 ---
 
