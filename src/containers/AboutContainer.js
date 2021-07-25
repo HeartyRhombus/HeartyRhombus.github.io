@@ -1,4 +1,3 @@
-import { auto } from 'async';
 import React, { Component } from 'react';
 import AboutComponent from '../components/AboutComponent';
 import profilePic from '../images/kenjaminProfilePic.png'
@@ -12,7 +11,7 @@ class AboutContainer extends Component {
                     <img
                         id="profile_pic"
                         src={profilePic}
-                        alt="profile picture"
+                        alt="profile sketch"
                     />
                     <br/>
                     Hi, I'm Kayla!
