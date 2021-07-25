@@ -18,3 +18,10 @@
   font-family: Moontime;
   font-size: 95px;
 }
+
+#profile_pic {
+  width: 250px;
+  height: auto;
+  position: relative;
+  top: 50px;
+}
