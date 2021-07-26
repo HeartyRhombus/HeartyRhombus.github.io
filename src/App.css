@@ -14,6 +14,16 @@
   font-size: large;
 }
 
+.NavBar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+a.nav-link {
+  color: #814256 !important;
+}
+
 #welcome_msg {
   font-family: Moontime;
   font-size: 95px;
@@ -23,5 +33,12 @@
   width: 250px;
   height: auto;
   position: relative;
-  top: 50px;
+  top: 25px;
+}
+
+#me_description {
+  display: inline-block;
+  max-width: 75%;
+  line-height: 30px;
+  margin: 10px;
 }
