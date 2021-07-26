@@ -18,6 +18,8 @@
   position: sticky;
   top: 0;
   z-index: 1;
+  background-color: rgb(255,255,255,.5);
+  padding: 5px;
 }
 
 a.nav-link {
@@ -41,4 +43,23 @@ a.nav-link {
   max-width: 75%;
   line-height: 30px;
   margin: 10px;
+}
+
+.card {
+  border-radius: 25px !important;
+  height: auto;
+  padding: 10px;
+  margin: 15px;
+}
+
+.card-img-top {
+  border-radius: 25px !important;
+  border-top-left-radius: 25%;
+}
+
+.card-body {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ font-size: medium;
 }
