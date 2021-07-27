@@ -4,7 +4,9 @@ class ContactContainer extends Component {
     render() {
         return (
             <div>
-                Contact Container
+                <h4 className="hr-title">
+                ☎ Contact Me ☎
+                </h4>
             </div>
         );
     }

@@ -5,7 +5,9 @@ class ProjectsContainer extends Component {
     render() {
         return (
             <div>
-                <h4 className="hr-title">Projects</h4>
+                <h4 className="hr-title">
+                    ⚒ Projects ⚒
+                </h4>
                 <ProjectComponent />
             </div>
         );

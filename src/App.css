@@ -16,7 +16,8 @@
 
 .hr-title::before {
   display: inline-block;
-  margin: 0 20px 8px 20px;
+  margin-right: 2%;
+  margin-bottom: 1%;
   height: 1px;
   content: "";
   background-image: linear-gradient(to right, transparent, blue);
@@ -25,7 +26,8 @@
 
 .hr-title::after {
   display: inline-block;
-  margin: 0 20px 8px 20px;
+  margin-left: 2%;
+  margin-bottom: 1%;
   height: 1px;
   content: "";
   background-image: linear-gradient(to left, transparent, blue);
@@ -63,6 +65,10 @@ a.nav-link {
   margin: 10px;
 }
 
+#projects, #contact {
+  margin: 10px 5px 10px 5px;
+  padding: 5px;
+}
 
 .card {
   border-radius: 25px !important;
