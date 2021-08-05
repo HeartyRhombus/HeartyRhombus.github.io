@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-// import placeholder from '../images/abstract-q-g-250-125-2.jpg'
 import github from '../images/GitHub-Mark-32px.png'
 import youtube from '../images/youtube_black_icon.png'
-import demo from '../images/demo-icon.png'
+// import demo from '../images/demo-icon.png'
 import ReactPlayer from "react-player"
 
 class ProjectComponent extends Component {
@@ -15,7 +14,7 @@ class ProjectComponent extends Component {
                         <Card.Header>
                             <ReactPlayer
                                 className="projDemoVid"
-                                url="https://youtu.be/AQkeDlNPZko"
+                                url="https://www.youtube-nocookie.com/embed/AQkeDlNPZko"
                             />
                         </Card.Header>
                         <Card.Body>
@@ -26,12 +25,12 @@ class ProjectComponent extends Component {
                             <a href="https://github.com/HeartyRhombus/travel_client" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={github} alt="GitHub" />
                             </a>
-                            <a href="https://youtu.be/AQkeDlNPZko" target="_blank" rel="noreferrer">
+                            <a href="https://www.youtube-nocookie.com/embed/AQkeDlNPZko" target="_blank" rel="noreferrer">
                             <img className="proj_icons" src={youtube} alt="YouTube" />
                             </a>
-                            <a href="#" target="_blank" rel="noreferrer">
+                            {/* <a href="#" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={demo} alt="Try Me" />
-                            </a>
+                            </a> */}
                         </Card.Footer>
                     </Card>
 
@@ -39,7 +38,7 @@ class ProjectComponent extends Component {
                         <Card.Header>
                             <ReactPlayer
                                 className="projDemoVid"
-                                url="https://youtube.com/embed/6YGZMibcDJQ"
+                                url="https://www.youtube-nocookie.com/embed/6YGZMibcDJQ"
                             />
                         </Card.Header>
                         <Card.Body>
@@ -50,12 +49,12 @@ class ProjectComponent extends Component {
                             <a href="https://github.com/HeartyRhombus/javascript_project" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={github} alt="GitHub" />
                             </a>
-                            <a href="https://youtu.be/6YGZMibcDJQ" target="_blank" rel="noreferrer">
+                            <a href="https://www.youtube-nocookie.com/embed/6YGZMibcDJQ" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={youtube} alt="YouTube" />
                             </a>
-                            <a href="#" target="_blank" rel="noreferrer">
+                            {/* <a href="#" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={demo} alt="Try Me" />
-                            </a>
+                            </a> */}
                         </Card.Footer>
                     </Card>
 
@@ -63,7 +62,7 @@ class ProjectComponent extends Component {
                         <Card.Header>
                             <ReactPlayer
                                 className="projDemoVid"
-                                url="https://youtu.be/uz3ygkNOf04"
+                                url="https://www.youtube-nocookie.com/embed/uz3ygkNOf04"
                             />
                         </Card.Header>
                         <Card.Body>
@@ -74,12 +73,12 @@ class ProjectComponent extends Component {
                             <a href="https://github.com/HeartyRhombus/rails_project" target="_blank"  rel="noreferrer">
                                 <img className="proj_icons" src={github} alt="GitHub" />
                             </a>
-                            <a href="https://youtu.be/uz3ygkNOf04" target="_blank" rel="noreferrer">
+                            <a href="https://www.youtube-nocookie.com/embed/uz3ygkNOf04" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={youtube} alt="YouTube" />
                             </a>
-                            <a href="#" target="_blank" rel="noreferrer">
+                            {/* <a href="#" target="_blank" rel="noreferrer">
                                 <img className="proj_icons" src={demo} alt="Try Me" />
-                            </a>
+                            </a> */}
                         </Card.Footer>
                     </Card>
 
