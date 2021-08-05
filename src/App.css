@@ -75,6 +75,7 @@ a.nav-link {
   height: auto;
   padding: 10px;
   margin: 15px;
+  border-style: hidden !important;
 }
 
 .card-header {
@@ -96,6 +97,10 @@ a.nav-link {
  font-size: medium;
 }
 
+.card-footer {
+  border-radius: 25px !important;
+}
+
 .proj_icons {
   height: 32px;
   width: auto;
@@ -103,13 +108,10 @@ a.nav-link {
 }
 
 .projDemoVid {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+iframe {
   border-radius: 25px;
-  padding: 0px;
-  /* position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
-  border: none;
 }
