@@ -18,7 +18,7 @@
   display: inline-block;
   margin-right: 2%;
   margin-bottom: 1%;
-  height: 1px;
+  height: 2px;
   content: "";
   background-image: linear-gradient(to right, transparent, #814256);
   width: 25%;
@@ -28,7 +28,7 @@
   display: inline-block;
   margin-left: 2%;
   margin-bottom: 1%;
-  height: 1px;
+  height: 2px;
   content: "";
   background-image: linear-gradient(to left, transparent, #814256);
   width: 25%;
@@ -48,7 +48,7 @@ a.nav-link {
 
 #welcome_msg {
   font-family: Moontime;
-  font-size: 95px;
+  font-size: 5.5rem;
 }
 
 #profile_pic {
@@ -99,7 +99,6 @@ a.nav-link {
 
 .card-footer {
   border-radius: 25px !important;
-  /* background-color: #f2e9e1 !important; */
 }
 
 .proj_icons {
@@ -119,6 +118,13 @@ iframe {
 
 #projects-title, #contact-title {
   font-family: Moontime;
-  font-size: 60px;
-  color: #814256
+  font-size: 4rem;
+  color: #814256;
+  margin-top: 50px;
+}
+
+.contact-icon {
+  height: 80px;
+  margin: 10px;
+  opacity: .8;
 }
