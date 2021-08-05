@@ -20,7 +20,7 @@
   margin-bottom: 1%;
   height: 1px;
   content: "";
-  background-image: linear-gradient(to right, transparent, blue);
+  background-image: linear-gradient(to right, transparent, #814256);
   width: 25%;
 }
 
@@ -30,7 +30,7 @@
   margin-bottom: 1%;
   height: 1px;
   content: "";
-  background-image: linear-gradient(to left, transparent, blue);
+  background-image: linear-gradient(to left, transparent, #814256);
   width: 25%;
 }
 
