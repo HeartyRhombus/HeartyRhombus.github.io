@@ -116,3 +116,9 @@ a.nav-link {
 iframe {
   border-radius: 25px;
 }
+
+#projects-title, #contact-title {
+  font-family: Moontime;
+  font-size: 60px;
+  color: #814256
+}
