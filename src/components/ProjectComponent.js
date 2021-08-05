@@ -10,9 +10,13 @@ class ProjectComponent extends Component {
                     <Card>
                         <Card.Img variant="top" src={placeholder} />
                         <Card.Body>
-                            <Card.Title> Test 1 </Card.Title>
+                            <Card.Title> Travel App </Card.Title>
                             <Card.Text> Test Description Placeholder </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                            <a href="https://github.com/HeartyRhombus/travel_client"><img src="" alt="GitHub"></img></a>
+                            <a href=""><img src="" alt="YouTube"></img></a>
+                        </Card.Footer>
                     </Card>
 
                     <Card>
@@ -21,6 +25,10 @@ class ProjectComponent extends Component {
                             <Card.Title> Test 2 </Card.Title>
                             <Card.Text> Test Description Placeholder </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                            <a href=""><img src="" alt="GitHub"></img></a>
+                            <a href=""><img src="" alt="YouTube"></img></a>
+                        </Card.Footer>
 
                     </Card>
                     <Card>
@@ -29,6 +37,10 @@ class ProjectComponent extends Component {
                             <Card.Title> Test 3 </Card.Title>
                             <Card.Text> Test Description Placeholder </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                            <a href=""><img src="" alt="GitHub"></img></a>
+                            <a href=""><img src="" alt="YouTube"></img></a>
+                        </Card.Footer>
                     </Card>
                 </CardGroup>
             </div>
