@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AboutComponent from '../components/AboutComponent';
-import profilePic from '../images/kenjaminProfilePic.png'
+import profilePic from '../images/IMG_2745.JPG'
 
 
 class AboutContainer extends Component {
@@ -11,7 +11,7 @@ class AboutContainer extends Component {
                     <img
                         id="profile_pic"
                         src={profilePic}
-                        alt="profile sketch"
+                        alt="profile picture"
                     />
                     <br/>
                     Hi, I'm Kayla!

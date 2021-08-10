@@ -55,7 +55,7 @@ a.nav-link {
   width: 250px;
   height: auto;
   position: relative;
-  top: 25px;
+  border-radius: 50%;
 }
 
 #me_description {
