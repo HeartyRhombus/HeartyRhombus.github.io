@@ -10,7 +10,11 @@ class ContactComponent extends Component {
         return (
             <>
                 <p style={{fontSize: "1.5rem"}}>Please feel free to reach out to me here:</p>
-                <a href="https://docs.google.com/document/d/1f9mlikm--E2WgOVrZtntlICwVWWbh6HR9WSc0VXk-zM/edit?usp=sharing" target="_blank">
+                <a
+                    href="https://docs.google.com/document/d/1f9mlikm--E2WgOVrZtntlICwVWWbh6HR9WSc0VXk-zM/edit?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="contact-icon"
                         src={resume}
@@ -18,7 +22,11 @@ class ContactComponent extends Component {
                         alt="Resume"
                     />
                 </a>
-                <a href="https://www.linkedin.com/in/KaylaBudzeak" target="_blank">
+                <a
+                    href="https://www.linkedin.com/in/KaylaBudzeak"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="contact-icon"
                         src={liLogo}
@@ -26,7 +34,11 @@ class ContactComponent extends Component {
                         alt="LinkedIn"
                     />
                 </a>
-                <a href="https://www.github.com/HeartyRhombus" target="_blank">
+                <a
+                    href="https://www.github.com/HeartyRhombus"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="contact-icon"
                         src={githubLogo}
@@ -34,7 +46,11 @@ class ContactComponent extends Component {
                         alt="GitHub"
                     />
                 </a>
-                <a href="https://HeartyRhombus.medium.com" target="_blank">
+                <a
+                    href="https://HeartyRhombus.medium.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="contact-icon"
                         src={medLogo}
@@ -42,7 +58,11 @@ class ContactComponent extends Component {
                         alt="Blog"
                     />
                 </a>
-                <a href="mailto:kayla.budzeak@icloud.com" target="_blank">
+                <a
+                    href="mailto:kayla.budzeak@icloud.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="contact-icon"
                         src={emLogo}
