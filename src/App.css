@@ -116,7 +116,7 @@ iframe {
   border-radius: 25px;
 }
 
-#projects-title, #contact-title {
+#projects-title, #contact-title, #my-journey-title, #tech-stack-title {
   font-family: Moontime;
   font-size: 4rem;
   color: #814256;
