@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import AboutComponent from '../components/AboutComponent';
+import Journey from '../components/Journey'
+import TechStack from '../components/TechStack'
 import profilePic from '../images/IMG_2745.JPG'
 
 
@@ -19,6 +21,8 @@ class AboutContainer extends Component {
                     Welcome & thanks for visiting!
                 </div>
                 <AboutComponent />
+                <Journey />
+                <TechStack />
             </div>
         );
     }
