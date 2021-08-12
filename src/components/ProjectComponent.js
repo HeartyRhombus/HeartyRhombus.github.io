@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import github from '../images/GitHub-Mark-32px.png'
-import youtube from '../images/youtube_black_icon.png'
-// import demo from '../images/demo-icon.png'
+import github from '../images/project_icons/GitHub-Mark-32px.png'
+import youtube from '../images/project_icons/youtube_black_icon.png'
+// import demo from '../images/project_icons/demo-icon.png'
 import ReactPlayer from "react-player"
 
 class ProjectComponent extends Component {
