@@ -33,6 +33,13 @@ class NavBar extends Component {
                         <Nav.Link onClick={scrollToContact}>
                             Contact Me
                         </Nav.Link>
+                        <Nav.Link
+                            href="https://docs.google.com/document/d/1f9mlikm--E2WgOVrZtntlICwVWWbh6HR9WSc0VXk-zM/edit?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Resume
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
