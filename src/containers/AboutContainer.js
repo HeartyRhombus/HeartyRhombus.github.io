@@ -11,7 +11,7 @@ class AboutContainer extends Component {
                     <img
                         id="profile_pic"
                         src={profilePic}
-                        alt="profile picture"
+                        alt="profile headshot"
                     />
                     <br/>
                     Hi, I'm Kayla!
