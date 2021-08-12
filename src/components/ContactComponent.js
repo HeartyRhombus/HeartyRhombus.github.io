@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import resume from '../images/resume-png-resume-icon-1600.png'
-import liLogo from '../images/linkedin-black-icon.png'
-import githubLogo from '../images/GitHub-Mark-120px-plus.png'
-import medLogo from '../images/Medium-Symbol-Black-RGB@4x.png'
-import emLogo from '../images/email-transparent-icon-4.png'
+import resume from '../images/contact_icons/resume-png-resume-icon-1600.png'
+import liLogo from '../images/contact_icons/linkedin-black-icon.png'
+import githubLogo from '../images/contact_icons/GitHub-Mark-120px-plus.png'
+import medLogo from '../images/contact_icons/Medium-Symbol-Black-RGB@4x.png'
+import emLogo from '../images/contact_icons/email-transparent-icon-4.png'
 
 class ContactComponent extends Component {
     render() {
