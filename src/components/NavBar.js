@@ -4,17 +4,15 @@ import { Nav, Navbar } from 'react-bootstrap'
 class NavBar extends Component {
     render() {
 
-        const scrollToHome = () => {
-            document.querySelector('#home').scrollIntoView()
-        }
+        const scrollToHome = () => document.querySelector('#home').scrollIntoView()
 
-        const scrollToProj = () => {
-            document.querySelector('#projects').scrollIntoView()
-        }
+        const scrollToProj = () => document.querySelector('#projects').scrollIntoView()
 
-        const scrollToContact = () => {
-            document.querySelector('#contact').scrollIntoView()
-        }
+        const scrollToContact = () => document.querySelector('#contact').scrollIntoView()
+
+        const scrollToJourney = () => document.querySelector('#my-journey-title').scrollIntoView()
+
+        const scrollToTech = () => document.querySelector('#tech-stack-title').scrollIntoView()
 
         return (
             <Navbar
@@ -26,6 +24,12 @@ class NavBar extends Component {
                     <Nav>
                         <Nav.Link onClick={scrollToHome}  >
                             Home
+                        </Nav.Link>
+                        <Nav.Link onClick={scrollToJourney}>
+                            My Journey
+                        </Nav.Link>
+                        <Nav.Link onClick={scrollToTech}>
+                            Tech Stack
                         </Nav.Link>
                         <Nav.Link onClick={scrollToProj}>
                             Projects
