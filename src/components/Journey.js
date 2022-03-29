@@ -22,6 +22,7 @@ class Journey extends Component {
                     <br/><br/>
                     And so here I am. I may be new to tech in my career, but being a 90s kid I have lived and grown up with tech my whole life. I am so glad I found coding (or did it find me?) because I can say with all honesty I genuinely enjoy the challenges it presents, and can't wait to see how far my new career path will take me!
                 </p>
+                <p>TL;DR I took career quizzes which pointed me in the direction of software engineering & attended a coding bootcamp. </p>
             </div>
         );
     }
