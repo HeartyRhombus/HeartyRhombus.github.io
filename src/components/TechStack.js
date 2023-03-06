@@ -18,8 +18,8 @@ class TechStack extends Component {
         </h4>
         <p id="tech_logos">
           <img className="tech_icons" src={js} alt="JavaScript" title="JavaScript" />
-          <img className="tech_icons" src={} alt="TypeScript" title="TypeScript" />
-          <img className="tech_icons" src={} alt="Bamboo" title="Bamboo" />
+          <img className="tech_icons" src={ts} alt="TypeScript" title="TypeScript" />
+          <img className="tech_icons" src={bamboo} alt="Bamboo" title="Bamboo" />
           {/* Flatiron Learned Skills */}
           {/* <img className="tech_icons" src={react} alt="React" title="React" />
           <img className="tech_icons" src={redux} alt="Redux" title="Redux" /> */}
