@@ -1,54 +1,44 @@
-import React, { Component } from 'react'
-import { Nav, Navbar } from 'react-bootstrap'
+import React, { Component } from "react"
+import { Nav, Navbar } from "react-bootstrap"
 
 class NavBar extends Component {
-    render() {
+  render() {
+    const scrollToHome = () => document.querySelector("#home").scrollIntoView()
 
-        const scrollToHome = () => document.querySelector('#home').scrollIntoView()
+    const scrollToProj = () =>
+      document.querySelector("#projects").scrollIntoView()
 
-        const scrollToProj = () => document.querySelector('#projects').scrollIntoView()
+    const scrollToContact = () =>
+      document.querySelector("#contact").scrollIntoView()
 
-        const scrollToContact = () => document.querySelector('#contact').scrollIntoView()
+    const scrollToJourney = () =>
+      document.querySelector("#my-journey-title").scrollIntoView()
 
-        const scrollToJourney = () => document.querySelector('#my-journey-title').scrollIntoView()
+    const scrollToTech = () =>
+      document.querySelector("#tech-stack-title").scrollIntoView()
 
-        const scrollToTech = () => document.querySelector('#tech-stack-title').scrollIntoView()
-
-        return (
-            <Navbar
-                expand="md"
-                className="justify-content-end"
-            >
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav>
-                        <Nav.Link onClick={scrollToHome}  >
-                            Home
-                        </Nav.Link>
-                        <Nav.Link onClick={scrollToJourney}>
-                            My Journey
-                        </Nav.Link>
-                        <Nav.Link onClick={scrollToTech}>
-                            Tech Stack
-                        </Nav.Link>
-                        <Nav.Link onClick={scrollToProj}>
-                            Projects
-                        </Nav.Link>
-                        <Nav.Link onClick={scrollToContact}>
-                            Contact Me
-                        </Nav.Link>
-                        <Nav.Link
+    return (
+      <Navbar expand="md" className="justify-content-end">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav>
+            <Nav.Link onClick={scrollToHome}>Home</Nav.Link>
+            <Nav.Link onClick={scrollToJourney}>My Journey</Nav.Link>
+            <Nav.Link onClick={scrollToTech}>Tech Stack</Nav.Link>
+            <Nav.Link onClick={scrollToProj}>Projects</Nav.Link>
+            <Nav.Link onClick={scrollToContact}>Contact Me</Nav.Link>
+            {/* <Nav.Link
                             href="https://docs.google.com/document/d/1f9mlikm--E2WgOVrZtntlICwVWWbh6HR9WSc0VXk-zM/edit?usp=sharing"
                             target="_blank"
                             rel="noreferrer"
                         >
                             Resume
-                        </Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-        );
-    }
+                        </Nav.Link> */}
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    )
+  }
 }
 
-export default NavBar;
+export default NavBar
