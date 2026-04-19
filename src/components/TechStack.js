@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import ts from "../images/tech_stack/ts_logo.png"
-import bamboo from "../images/tech_stack/bamboo_logo.png"
+// import bamboo from "../images/tech_stack/bamboo_logo.png"
 // import react from "../images/tech_stack/react_logo.png"
 // import redux from "../images/tech_stack/redux_logo.png"
 import js from "../images/tech_stack/js_logo.png"
@@ -8,6 +8,7 @@ import js from "../images/tech_stack/js_logo.png"
 // import html from "../images/tech_stack/html_logo.png"
 // import css from "../images/tech_stack/css_logo.png"
 // import sql from "../images/tech_stack/sql_logo.png"
+import gh from "../images/tech_stack/github_logo.png"
 
 class TechStack extends Component {
   render() {
@@ -19,7 +20,8 @@ class TechStack extends Component {
         <p id="tech_logos">
           <img className="tech_icons" src={js} alt="JavaScript" title="JavaScript" />
           <img className="tech_icons" src={ts} alt="TypeScript" title="TypeScript" />
-          <img className="tech_icons" src={bamboo} alt="Bamboo" title="Bamboo" />
+          {/* <img className="tech_icons" src={bamboo} alt="Bamboo" title="Bamboo" /> */}
+          <img className="tech_icons" src={gh} alt="GitHub" title="GitHub" />
           {/* Flatiron Learned Skills */}
           {/* <img className="tech_icons" src={react} alt="React" title="React" />
           <img className="tech_icons" src={redux} alt="Redux" title="Redux" /> */}
