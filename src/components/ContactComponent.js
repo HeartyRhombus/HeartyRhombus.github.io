@@ -52,13 +52,13 @@ class ContactComponent extends Component {
           />
         </a>
         {/* Medium Articles */}
-        <a
+        {/* <a
           href="https://HeartyRhombus.medium.com"
           target="_blank"
           rel="noreferrer"
         >
           <img className="contact-icon" src={medLogo} title="Blog" alt="Blog" />
-        </a>
+        </a> */}
       </>
     )
   }
