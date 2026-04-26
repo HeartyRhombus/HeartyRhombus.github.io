@@ -1,11 +1,9 @@
-import AboutContainer from './_containers/AboutContainer'
+import HomeContainer from './_containers/HomeContainer'
 
 export default function Home() {
   return (
-    <div>
-      <main>
-        <AboutContainer />
-      </main>
+    <div className="App">
+      <HomeContainer />
     </div>
   )
 }
