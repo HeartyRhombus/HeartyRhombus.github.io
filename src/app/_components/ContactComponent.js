@@ -8,7 +8,7 @@ export default function ContactComponent() {
       <p style={{ fontSize: '1.5rem' }}>
         Please feel free to reach out to me here!
       </p>
-      <p className="flex flex-row justify-center">
+      <p className="centered-icons">
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/KaylaBudzeak"

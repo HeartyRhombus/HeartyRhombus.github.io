@@ -9,7 +9,7 @@ export default function TechStack() {
       <h4 className="hr-title" id="tech-stack-title">
         Current Technical Skills
       </h4>
-      <div className="flex flex-row justify-center" id="tech_logos">
+      <div className="centered-icons" id="tech_logos">
         <Image
           className="tech_icons"
           src={js}
